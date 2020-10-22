@@ -1,0 +1,213 @@
+[
+    {
+        "title": "Тосол FELIX Carbox 40",
+        "цвет" : "Красный",
+        "объем" : "40л",
+        "цена" : "3143",
+        "image": "img/products/1.png",
+        "image-min": "img/products/1-mini.png",
+        "марка": "FELIX",
+        "тип": "Тосол"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 450",
+        
+            "цвет" : "Cиний",
+            "объем" : "450л",
+        "цена" : "1090",
+        
+        "image": "img/products/2.png",
+        "image-min": "img/products/2-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Тосол FELIX Carbox 40",
+        
+            "цвет" : "зеленый",
+            "объем" : "40л",
+            "цена" : "2050",
+        "image": "img/products/3.png",
+        "image-min": "img/products/3-mini.png",
+        "марка": "FELIX",
+        "тип": "Тосол"
+    },
+    {
+        "title": "Тосол FELIX Carbox 75",
+        "цена" : "1700",
+            "цвет" : "Сине-зеленый",
+            "объем" : "10л",
+        
+        "image": "img/products/4.png",
+        "image-min": "img/products/4-mini.png",
+        "марка": "FELIX",
+        "тип": "Тосол"
+    },
+    {
+        "title": "Тосол FELIX Carbox 75",
+        "цена" : "5120",
+            "цвет" : "зеленый",
+            "объем" : "75л",
+        
+        "image": "img/products/5.png",
+        "image-min": "img/products/5-mini.png",
+        "марка": "FELIX",
+        "тип": "Тосол"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "750",
+            "цвет" : "красный",
+            "объем" : "10л",
+        
+        
+        "image": "img/products/6.png",
+        "image-min": "img/products/6-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        
+            "цвет" : "красный",
+            "объем" : "75л",
+            "цена" : "3200",
+        
+        "image": "img/products/7.png",
+        "image-min": "img/products/7-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "3143",
+            "цвет" : "синий",
+            "объем" : "75л",
+        
+        
+        "image": "img/products/8.png",
+        "image-min": "img/products/8-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "6400",
+            "цвет" : "синий",
+            "объем" : "75л",
+        
+        
+        "image": "img/products/9.png",
+        "image-min": "img/products/9-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "2500",
+            "цвет" : "жёлтый",
+            "объем" : "75л",
+        
+        
+        "image": "img/products/10.png",
+        "image-min": "img/products/10-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "1860",
+            "цвет" : "красный",
+            "объем" : "75л",
+        
+        
+        "image": "img/products/11.png",
+        "image-min": "img/products/11-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "2500",
+            "цвет" : "жёлтый",
+            "объем" : "75л",
+        
+        
+        "image": "img/products/12.png",
+        "image-min": "img/products/12-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "1950",
+            "цвет" : "красный",
+            "объем" : "75л",
+        
+        
+        "image": "img/products/13.png",
+        "image-min": "img/products/13-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "2970",
+            "цвет" : "красный",
+            "объем" : "75л",
+        
+        
+        "image": "img/products/14.png",
+        "image-min": "img/products/14-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "2353",
+            "цвет" : "красный",
+            "объем" : "75л",
+        
+        
+        "image": "img/products/15.png",
+        "image-min": "img/products/15-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "2533",
+            "цвет" : "красный",
+            "объем" : "75л",
+        
+    
+        "image": "img/products/16.png",
+        "image-min": "img/products/16-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "4500",
+            "цвет" : "красный",
+            "объем" : "75л",
+        
+        
+        "image": "img/products/17.png",
+        "image-min": "img/products/17-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    },
+    {
+        "title": "Антифриз Valvoline Carbox 10",
+        "цена" : "3200",
+            "цвет" : "красный",
+            "объем" : "75л",
+        
+        
+        "image": "img/products/18.png",
+        "image-min": "img/products/18-mini.png",
+        "марка": "Valvoline",
+        "тип": "Антифриз"
+    }
+]

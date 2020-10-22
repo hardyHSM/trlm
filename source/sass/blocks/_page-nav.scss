@@ -1,0 +1,28 @@
+.page-nav__list {
+    display: flex;
+}
+
+.page-nav__item {
+    margin-right: 45px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.page-nav__link {
+    font-size: 15px;
+    transition: all .1s linear;
+    svg {
+        fill: rgba(34, 34, 34, 0.5);
+    }
+    &:hover {
+        svg {
+            fill: #222;
+        }
+    }
+}
+
+.page-nav__link_active {
+    font-weight: bold;
+}
+

@@ -1,0 +1,161 @@
+.button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 4px;
+    transition: all .1s linear;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    cursor: pointer;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.button_accent {
+    background: #1C69D4;
+    color: #fff;
+    &:hover {
+        background-color: #2681FF;
+    }
+    &:active {
+        background-color: #0055CB;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.8);
+    }
+    &:disabled {
+        background: #5988C9;
+        opacity: 0.4;
+    }
+}
+
+.button_neutral {
+    border: 1px solid #222222;
+    color: #222222;
+}
+
+.button_backwards-accent {
+    border: 2px solid #1C69D4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #1C69D4;
+    &:hover {
+        color: #0055CB;
+        border: 2px solid #2681FF;
+    }
+    &:active {
+        background: rgba(28, 105, 212, 0.1);
+        border: 2px solid #0055CB;
+    }
+    &:disabled {
+        color: #BBBBBB;
+        border: 2px solid #CCCCCC;
+        opacity: 0.9;
+    }
+}
+
+.button_wp {
+    border: 2px solid #3CA255;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 65px;
+    color: #3CA255;
+    position: relative;
+    svg {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        fill: #3CA255;
+        top: 50%;
+        left: 13%;
+        transform: translateY(-50%);
+    }
+    .button__text {
+        display: none;
+    }
+}
+
+.button-mini {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 4px;
+    transition: all .1s linear;
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.button-mini_backwards-accent {
+    border: 1px solid #1C69D4;
+    color: #1C69D4;
+    &:hover {
+        color: #0055CB;
+        border-color:  #2681FF;
+    }
+    &:active {
+        background: rgba(28, 105, 212, 0.1);
+        border-color: #0055CB;
+    }
+    &:disabled {
+        color: #BBBBBB;
+        border-color: #CCCCCC;
+        opacity: 0.9;
+    }
+}
+
+.button-mini_accent {
+    background: #1C69D4;
+    color: #fff;
+    &:hover {
+        background-color: #2681FF;
+    }
+    &:active {
+        background-color: #0055CB;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.8);
+    }
+    &:disabled {
+        background: #5988C9;
+        opacity: 0.4;
+    }
+}
+
+.button-mini_backwards-negative {
+    border: 1px solid #CC3333;
+    color: #CC3333;
+    &:hover {
+        border-color: #ed1e1e;
+        color: #ff1a1a;
+    }
+    &:active {
+        background-color: rgba(184, 18, 18, 0.193);
+    }
+}
+
+.button-mini_fat {
+    border-width: 2px;
+}
+
+.catalog-menu__button {
+    margin-bottom: 15px;
+}
+
+.catalog-menu__selectcion-link {
+    margin-bottom: 15px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

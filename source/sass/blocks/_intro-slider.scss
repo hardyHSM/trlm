@@ -1,0 +1,118 @@
+.intro-product {
+    padding-top: 40px;
+    padding-bottom: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.intro-product__content {
+    position: relative;
+}
+
+.intro-product__title {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 75px;
+    line-height: 72px;
+    text-align: right;
+    color: #FFFFFF;
+    position: absolute;
+    top: 145px;
+    right: 0;
+}
+
+.intro-product__title_uppercase {
+    text-transform: uppercase;
+}
+
+.intro-product__logo {
+    margin-bottom: 38px;
+}
+
+.intro-product__accent-text {
+    font-family: Gotham Pro;
+    max-width: 342px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.intro-product__accent-text_bold {
+    font-weight: bold;
+}
+
+.intro-product__read-more {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #222222;
+    position: relative;
+    svg {
+        display: block;
+        width: 39px;
+        height: 22px;
+        right: -18px;
+        top: 50%;
+        transform: translate(100%,-50%);
+        position: absolute;
+        fill: #1C69D4;
+    }
+}
+
+.intro-product__img {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.swiper-button-next, .swiper-button-prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.4);
+    transition: all .1s ease-in;
+    cursor: pointer;
+    svg {
+        width: 35px;
+        height: 25px;
+        fill: #fff;
+    }
+    &:hover {
+        background: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.swiper-button-prev  {
+   svg {
+       transform: rotate(-180deg);
+   }
+}
+
+.swiper-button-next[aria-disabled=true],
+.swiper-button-prev[aria-disabled=true] {
+    opacity: .4;
+    &:hover {
+        background: rgba(255, 255, 255, 0.4);
+    }
+}
+
+.intro-product__buttons {
+    position: absolute;
+    display: flex;
+    right: 25px;
+    top: 0;
+    z-index: 15;
+}

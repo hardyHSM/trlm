@@ -1,0 +1,38 @@
+.section-payment__list {
+    display: flex;
+}
+
+.section-payment__item {
+    margin-right: 30px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.payment-item {
+    width: 460px;
+}
+
+.payment-item__method {
+    font-family: Gotham Pro;
+    font-size: 18px;
+    color: #222222;
+    padding-right: 5px;
+}
+
+
+
+.payment-item__header {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.payment-item__content {
+    border-left: 1px solid #1C69D4;
+    padding-left: 10px;
+    &:first-child {
+        border-left: none;
+    }
+}

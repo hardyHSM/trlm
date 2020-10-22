@@ -1,0 +1,40 @@
+.reg-form__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.reg-form__item {
+    width: calc(100% / 2 - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.reg-form__undertext {
+    padding-top: 6px;
+    color: #777777;
+}
+
+.reg-form__req {
+    color: #777777;
+}
+
+.reg-form__title {
+    font-size: 14px;
+    color: #222222;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.reg-form__submit {
+    padding: 20px;
+}
+
+.reg-form__undertext_error {
+    padding-top: 10px;
+    color: #E15353;
+    display: none;
+}
+

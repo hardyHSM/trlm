@@ -1,0 +1,17 @@
+.page-main {
+    background-color: #F0F0F0;
+    padding-top: 40px;
+    width: 100%;
+    flex-grow: 1;
+    // width: 1820px;
+    // margin-left: auto;
+    // margin-right: auto;
+}
+
+.page-main_section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    .page-content {
+            height: 100%;
+    }
+}

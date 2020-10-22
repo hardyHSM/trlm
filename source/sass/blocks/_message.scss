@@ -1,0 +1,37 @@
+.message {
+    padding: 18px 22px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    position: relative;
+}
+
+.message_error {
+    background: #FFF7F7;
+    border-color: #FF4400;
+    color: #FF4400;
+}
+
+.message_accent {
+    border: 1px solid #1C69D4;
+    color: #1C69D4;
+    svg {
+        fill: #1C69D4;
+    }
+}
+
+.message_icon {
+    padding-left: 50px;
+    svg {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

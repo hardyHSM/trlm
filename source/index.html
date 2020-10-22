@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Trlm.ru</title>
+    <meta name="description" content="trlm.ru">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="./libs/_preloader.js"></script>
+</head>
+<body class="page">
+    <div class="page__preloader">
+        <div class="preloader"></div>
+    </div>
+    <div class="cookie-info">
+        <p class="cookie-info__text">Этот сайт использует cookie для хранения данных. Продолжая использовать сайт, Вы даёте согласие на использование данной технологии.</p>
+        <button class="cookie-info__button"></button>
+    </div>
+    <div class="page__wrapper">
+        <div class="page-popup">
+            <button class="page-popup__close" data-close></button>
+            <div class="page-popup__container page-popup__container_sign page-popup__container_active">
+
+
+                <h2 class="page-popup__title">Вход на сайт</h2>
+                <div class="page-popup__errors">
+                    <!-- <div class="page-popup__error message message_error">
+                        Некорректный ввод пароля. Пароль должен содержать минимум 6 символов.
+                    </div> -->
+                </div>
+                <form action="#">
+                    <p class="page-popup__block page-popup__block_tel page-popup__block_active">
+                        <input type="text" class="page-popup__input page-popup__input_tel page-input" placeholder="Телефон">
+                        <button class="page-popup__link page-popup__link_email">Использовать e-mail</button>
+                    </p>
+                    <p class="page-popup__block page-popup__block_email">
+                        <input type="text" class="page-popup__input page-popup__input_email page-input" placeholder="E-mail" type="email">
+                        <button class="page-popup__link page-popup__link_tel">Использовать телефон</button>
+                    </p>
+                    <p>
+                        <input type="password" class="page-popup__input page-popup__input_pass page-input" placeholder="Пароль">
+                        <button class="page-popup__link page-popup__link-forget">Забыли пароль?</button>
+                    </p>
+                    <button class="page-popup__button button button_accent" type="submit">Войти</button>
+                </form>
+                <a href="reg.html" class="page-popup__link-reg">Регистрация</a>
+            </div>
+            <div class="page-popup__container page-popup__container_forget">
+                <h2 class="page-popup__title">Смена Пароля</h2>
+                <div class="page-popup__descr">Ссылка на смену пароля будет отправлена на email, даже если Вы введёте номер, используемый для авторизации</div>
+                <div class="page-popup__errors">
+                    <!-- <div class="page-popup__error message message_error">
+                        Некорректный ввод пароля. Пароль должен содержать минимум 6 символов.
+                    </div> -->
+                </div>
+                <form action="#">
+                    <p class="page-popup__block page-popup__block_active page-popup__block_email">
+                        <input type="text" class="page-popup__input page-popup__input_email page-input" placeholder="E-mail" type="email">
+                    </p>
+                    <button class="page-popup__button button button_accent page-popup__button-pass" type="submit">Отправить письмо</button>
+                </form>
+                <a href="#" class="page-popup__link-remember">Вспомнил пароль</a>
+            </div>
+            
+        </div>
+        <div class="page-overlay"></div>
+        <header class="page-header">
+            <div class="catalog-menu">
+                <div class="catalog-menu__row">
+                    <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Расходные жидкости</b>
+                            <a href="catalog.html" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list"> 
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Тормозные жидкости</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Охлаждающие жидкости</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Стеклоомывающие жидкости</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Мочевина</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Масла</b>
+                            <a href="catalog.html" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Моторные</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Трансмиcсионные</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Промывочные</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Мотомасла и спец. продукты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Аккумуляторы</b>
+                            <a href="catalog.html" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Для легковых автомобилей</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Для грузовых автомобилей</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Аккумуляторы AGM</a>
+                            </li>
+
+                        </ul>
+                     </div>
+                     <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Общехозяйственные товары</b>
+                            <a href="catalog.html" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Батарейки</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="" class="catalog-item__link">Дистиллированная вода</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Клеи и фиксаторы</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Лаки и краски</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Расходные материалы</b>
+                            <a href="#" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Лампы</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Свечи</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Тормозные колодки</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Предохранители</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Щетки стеклоочистителя</b>
+                            <a href="catalog.html" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Каркасные</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Гибридные</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Бескаркасные</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Фильтры</b>
+                            <a href="catalog.html" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Масляные</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Воздушные</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Топливные</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Салонные</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Автокосметика</b>
+                            <a href="catalog.html" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Очистители кузова</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Полироли кузова</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Очистители стекол</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Предохранители</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Аксессуары</b>
+                            <a href="catalog.html" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Ароматизаторы</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Салфетки</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Герметики, герметик-прокладки</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Ткани и губки</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Смазки</b>
+                            <a href="catalog.html" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Двухкомпонентные</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">ГОСТовские (литол, солидол и пр.)</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Высокотемпературные</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Специальные</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__header">
+                            <b class="catalog-item__title">Мойка авто и клининг</b>
+                            <a href="catalog.html" class="catalog-item__link-all button-mini button-mini_backwards-accent">все<svg>
+                                                    <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                                </svg></a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Ткани для протирки</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Аппараты высокого давления</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Пылесосы</a>
+                            </li>
+                            <li class="catalog-item__point">
+                                <a href="catalog.html" class="catalog-item__link">Химия для мойки автомобиля</a>
+                            </li>
+                        </ul>
+                     </div>
+                
+                    
+                    
+                </div>
+                <div class="catalog-menu__right">
+                    <a href="catalog.html" class="catalog-menu__button button button_accent">Подбор запчастей</a>
+                    <a href="#" class="catalog-menu__selectcion-link selection-link">
+                        <img src="img/links/1.png" alt="">
+                        <span class="selection-link__title">Подбор шин и дисков</span>
+                    </a>
+                    <a href="catalog.html" class="catalog-menu__selectcion-link selection-link">
+                        <img src="img/links/2.png" alt="">
+                        <span class="selection-link__title">Подбор АКБ</span>
+                    </a>
+                </div>
+            </div>
+            <div class="page-content">
+                <div class="page-header__content">
+                    <div class="page-header__left">
+                        <button class="button-menu">
+                            <span class="button-menu__decor"></span>
+                        </button>
+                        <a href="index.html" class="page-header__logo logo">
+                            <div class="logo__text">trlm.ru</div>
+                            <img src="img/site-logo.png" alt="#">
+                        </a>
+                        <div class="page-header__column">
+                            <adress class="page-header__adress page-adress">
+                                <span class="page-adress__current">Московская область</span>
+                                <div class="page-adress__drop">
+                                    <div class="page-adress__row">
+                                        <div class="page-adress__left">
+                                            Ваш регион - 
+                                        </div>
+                                        <div class="page-adress__right">
+                                            <span class="page-adress__current-city">Московская область?</span>
+                                            <div class="page-adress__buttons">
+                                                <button class="page-adress__yes button-mini  button-mini_backwards-accent button-mini_fat">да</button>
+                                                <button class="page-adress__no button-mini  button-mini_backwards-negative button-mini_fat">нет</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="page-adress__pick pick-adress">
+                                        <span class="pick-adress__title">Выберите регион:</span>
+                                        <div class="pick-adress__search">
+                                            <button class="pick-adress__icon">
+                                                <svg>
+                                                    <use xlink:href="img/svg/sprite.svg#search"></use>
+                                                </svg>
+                                            </button>
+                                            <input type="text" class="pick-adress__input page-input">
+                                        </div>
+                                        <ul class="pick-adress__list">
+                                            <!-- <li class="pick-adress__item"><b>Мо</b>сква</li>
+                                            <li class="pick-adress__item"><b>Мо</b>сковская область</li>
+                                            <li class="pick-adress__item">Республика <b>Мо</b>рдовия</li>
+                                            <li class="pick-adress__item">При<b>мо</b>рский край</li>
+                                            <li class="pick-adress__item">С<b>мо</b>ленская область</li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </adress>
+                            <button class="button button_accent button-catalog">
+                                <span class="button-catalog__decor"></span>
+                                Каталог
+                            </button>
+                        </div>
+                    </div>
+                    <div class="page-header__right">
+                        <div class="page-header__row page-header__row-top">
+                            <a class="page-tel page-header__tel" href="tel:88005501980">8-800-550-19-80</a>
+                            <nav class="page-nav page-header__nav">
+                                <ul class="page-nav__list">
+                                    <li class="page-nav__item">
+                                        <a href="catalog.html" class="page-nav__link">Каталог
+                                            <svg>
+                                                <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="page-nav__item">
+                                        <a href="#" class="page-nav__link">Доставка
+                                        <svg>
+                                            <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                        </svg>
+                                        </a>
+                                    </li>
+                                    <li class="page-nav__item page-nav__item_buy">
+                                        <a href="how_buy.html" class="page-nav__link ">Как купить
+                                            <svg>
+                                                <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="page-nav__item">
+                                        <a href="payment.html" class="page-nav__link">Оплата
+                                            <svg>
+                                                <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="page-nav__item page-nav__item_shares">
+                                        <a href="#" class="page-nav__link">Акции
+                                            <svg>
+                                                <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="page-nav__item page-nav__item_contacts">
+                                        <a href="contacts.html" class="page-nav__link">Контакты
+                                            <svg>
+                                                <use xlink:href="img/svg/sprite.svg#arrow-small"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <ul class="page-header__user-nav user-nav">
+                                <li class="user-nav__item user-nav__item_sign">
+                                    <svg>
+                                        <use xlink:href="img/svg/sprite.svg#sign-in"></use>
+                                    </svg>
+                                    <button class="user-nav__link">Войти</button>
+                                </li>
+                                <li class="user-nav__item user-nav__item_cart">
+                                    <svg>
+                                        <use xlink:href="img/svg/sprite.svg#cart"></use>
+                                    </svg>
+                                    <a href="cart.html" class="user-nav__link">Корзина</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="page-header__row page-header__row_last">
+                            <div class="page-header__search-wrapper page-search">
+                                <form action="#" class="page-search__form" method="get">
+                                    <button class="page-search__icon">
+                                        <svg>
+                                            <use xlink:href="img/svg/sprite.svg#search"></use>
+                                        </svg>
+                                    </button>
+                                    <input autocomplete="off" class="page-input page-search__input" name="site-search" id="site-search" placeholder="Что ищите?">
+                                    <button class="page-search__button button button_accent">
+                                        <svg>
+                                            <use xlink:href="img/svg/sprite.svg#search"></use>
+                                        </svg>
+                                        Искать
+                                    </button>
+                                </form>
+                                <div class="page-search__complete">
+                                    <div class="page-search__point">
+                                        <span class="page-search__title">Допуски производителей</span>
+                                        <ul class="page-search__list">
+                                            <li class="page-search__item">
+                                                <a href="#" class="page-search__link">Vallison C4</a>
+                                                <span class="page-search__count">(товаров - 31)</span>
+                                            </li>
+                                            <li class="page-search__item">
+                                                <a href="#" class="page-search__link">Haval ESC</a>
+                                                <span class="page-search__count">(товаров - 25)</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="page-search__point">
+                                        <span class="page-search__title">Бренды</span>
+                                        <ul class="page-search__list">
+                                            <li class="page-search__item">
+                                                <a href="#" class="page-search__link">Valvoline</a>
+                                                <span class="page-search__count">(товаров - 119)</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="page-search__point">
+                                        <span class="page-search__title">Товары</span>
+                                        <ul class="page-search__list">
+                                            <li class="page-search__item">
+                                                <img src="img/products/valv-5-mini.png" alt="" class="page-search__img">
+                                                <a href="#" class="page-search__link">Valvoline ALL CLIMATE 5W-40 (5л)</a>
+                                            </li>
+                                            <li class="page-search__item">
+                                                <img src="img/products/valv-208-mini.png" alt="" class="page-search__img">
+                                                <a href="#" class="page-search__link">Valvoline ALL CLIMATE 5W-40 (208л)</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-header__bottom">
+                <div class="page-content">
+
+                </div>
+            </div>
+        </header>
+        <main class="page-main">
+            <div class="page-content">
+                <h1 class="v-hidden">Сайт по продаже допчастей для авто.</h1>
+                <section class="intro-slider swiper-container">
+                    
+                    <h2 class="v-hidden">Слайдер Товара</h2>
+                    <div class="swiper-wrapper">
+                        <div class="intro-slider__slide intro-product swiper-slide" style="background-image: url('./img/intro-product/1.png')">
+                            <div class="intro-product__content container">
+                                <h2 class="intro-product__title">New Energy</h2>
+                                <img class="intro-product__logo" src="img/logo-product/champion.png" alt="champion логотип" width="122">
+                                <b class="intro-product__accent-text intro-product__accent-text_bold">Фильтр масла в подарок</b>
+                                <a href="" class="intro-product__read-more">
+                                    <svg>
+                                        <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                                    </svg>
+                                    Подробнее
+                                </a>
+                                <img class="intro-product__img" src="img/logo-product/champion-product.png" alt="New Energy champion">
+                            </div>
+                        </div>
+                        <div class="intro-slider__slide intro-product swiper-slide" style="background-image: url('./img/intro-product/2.png')">
+                            <div class="intro-product__content container">
+                                <h2 class="intro-product__title intro-product__title_uppercase">Felix</h2>
+                                <img class="intro-product__logo" src="img/logo-product/felix.png" alt="champion логотип" width="114">
+                                <b class="intro-product__accent-text">Комплект бесконтактной мойки</b>
+                                <a href="" class="intro-product__read-more">
+                                    Подробнее
+                                </a>
+                                <img class="intro-product__img" src="img/logo-product/felix-product.png" alt="New Energy champion">
+                            </div>
+                        </div>
+                        <div class="intro-slider__slide intro-product swiper-slide" style="background-image: url('./img/intro-product/3.png')">
+                            <div class="intro-product__content container ">
+                                <h2 class="intro-product__title">Motor Oil</h2>
+                                <img class="intro-product__logo" src="img/logo-product/felix.png" alt="champion логотип" width="114">
+                                <b class="intro-product__accent-text">Масло Felix 4+1</b>
+                                <a href="" class="intro-product__read-more">
+                                    Подробнее
+                                </a>
+                                <img class="intro-product__img" src="img/logo-product/felix-product2.png" alt="New Energy champion">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro-product__buttons">
+                        <div class="swiper-button-prev">
+                            <svg>
+                                <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg>
+                                <use xlink:href="img/svg/sprite.svg#arrow"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
+                <section class="opportunities">
+                    <h2 class="opportunities__title v-hidden">Возможности</h2>
+                    <div class="opportunities__content container">
+                        <ol class="opportunities__list">
+                            <li class="opportunities__item opportunity-item">
+                                <b class="opportunity-item__numb">01</b>
+                                <h3 class="opportunity-item__title">Бесплатный звонок</h3>
+                                <p class="opportunity-item__descr">На любые номера РФ</p>
+                                <a class="opportunity-item__tel page-tel" href="tel:88005501980">8-800-550-19-80</a>
+                                <button class="opportunity-item__button button button_wp" >
+                                    <svg>
+                                        <use xlink:href="img/svg/sprite.svg#wp"></use>
+                                    </svg>
+                                    <span class="button__number">+7 (928) 107-80-80</span>
+                                    <span class="button__text">WhatsApp</span>
+                                </button>
+                            </li>
+                            <li class="opportunities__item opportunity-item">
+                                <b class="opportunity-item__numb">02</b>
+                                <h3 class="opportunity-item__title">Бесплатный подбор</h3>
+                                <p class="opportunity-item__descr">Мы найдем самую низкую цену на оригинальную запчасть, достойную альтернативу или самый дешевый аналог.</p>
+                                <button class="opportunity-item__button  button button_backwards-accent">Заявка на подбор</button>
+                            </li>
+                            <li class="opportunities__item opportunity-item">
+                                <b class="opportunity-item__numb">03</b>
+                                <h3 class="opportunity-item__title">Бесплатная доставка</h3>
+                                <p class="opportunity-item__descr">Согласуем и привезём запчасти в офис или домой в удобное для Вас время.</p>
+                                <button class="opportunity-item__button  button button_backwards-accent">Пункты выдачи</button>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="advert-products">
+                    <h2 class="v-hidden">Рекомендуемые продукты</h2>
+                    <div class="advert-products__content container">
+                        <div class="adver-products__item">
+                            <article class="adver-product">
+                                <picture>
+                                    <source media="(max-width: 1280px)" srcset="img/product-advert/1-mini.png">
+                                    <img class="logotype__img" src="img/product-advert/1.jpg" alt="">
+                                </picture>
+                                <div class="adver-product__content">
+                                    <h3 class="adver-product__title ">Щетки AWM</h3>
+                                <a href="#" class="adver-product__link">Подробнее</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="adver-products__item adver-products__item_big">
+                            <article class="adver-product">
+                                <picture>
+                                    <source media="(max-width: 1280px)" srcset="img/product-advert/2-mini.png">
+                                    <img class="logotype__img" src="img/product-advert/2.jpg" alt="">
+                                </picture>
+                                <div class="adver-product__content">
+                                    <span class="adver-product__date">Весь январь</span>
+                                    <h3 class="adver-product__title">скидка 20% на весь DOT4</h3>
+                                    <a href="#" class="adver-product__link">Подробнее</a>
+                                    <span class="adver-product__feature">Цена снижена</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="page-footer page-content ">
+            <div class="page-footer__content container">
+                <nav class="page-nav page-footer__nav">
+                    <ul class="page-nav__list">
+                        <li class="page-nav__item">
+                            <a href="#" class="page-nav__link">Подбор запчастей</a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="#" class="page-nav__link">Доставка</a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="how_buy.html" class="page-nav__link">Как купить</a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="payment.html" class="page-nav__link">Оплата</a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="#" class="page-nav__link">Договор оферты</a>
+                        </li>
+                        <li class="page-nav__item page-nav__item_conf">
+                            <a href="#" class="page-nav__link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="page-nav__item page-nav__item_req">
+                            <a href="#" class="page-nav__link">Реквизиты</a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="contacts.html" class="page-nav__link">Контакты</a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="#" class="page-nav__link">Акции</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="socials-list page-footer__socials">
+                    <li class="socials-list__item">
+                        <a href="#" class="socials-item__link">
+                            Вконтакте
+                            <svg>
+                                <use xlink:href="img/svg/sprite.svg#vk"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-list__item">
+                        <a href="#" class="socials-item__link">
+                            Ватсап
+                            <svg>
+                                <use xlink:href="img/svg/sprite.svg#wp"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-list__item">
+                        <a href="#" class="socials-item__link">
+                            Инстаграмм
+                            <svg>
+                                <use xlink:href="img/svg/sprite.svg#inst"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <div class="copyright">
+                    Дизайн — «Есть Идея!»
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://unpkg.com/imask" defer></script>
+    <script src="./libs/_swiper-bundle.js" defer></script>
+    <script src="./js/main.js" defer></script>
+</body>
+</html>

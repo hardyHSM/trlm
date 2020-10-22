@@ -1,0 +1,41 @@
+.select__body {
+    position: absolute;
+    left: 30%;
+    top: 0;
+    border: 1px solid #BBBBBB;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    z-index: 50;
+    transition: all .1s linear;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s linear;
+}
+
+.select_active {
+    .select__body {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.select__item {
+    padding: 15px;
+    padding-right: 55px;
+    cursor: pointer;
+    transition: all .1s linear;
+    white-space: nowrap;
+    &:hover {
+        background: #f1f1f1;
+    }
+}
+
+.select__item_current {
+    font-weight: bold;
+    background: #f1f1f1;
+}
+
+.select {
+    cursor: pointer;
+    position: relative;
+}

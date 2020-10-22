@@ -1,0 +1,43 @@
+.page-footer {
+    background-color: #F0F0F0;
+    color: #222;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page-footer__content {
+    
+}
+
+
+.page-footer__nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.page-footer__nav .page-nav__item {
+    margin-right: 35px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.page-footer__nav .page-nav__link {
+    font-weight: bold;
+}
+
+
+.page-footer__socials {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #777777;
+}  

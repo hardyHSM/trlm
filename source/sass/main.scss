@@ -1,0 +1,24 @@
+// Подключение шрифтов
+@import 'fonts';
+
+
+// подключение переменных, миксин и базовые настройки
+@import 'mixins';
+@import 'grid-mixins';
+@import 'vars';
+@import 'base';
+
+// подключение библиотек
+
+
+
+
+// modules include
+
+@import '/blocks/**/*';
+
+//@import 'media';
+
+@import 'media';
+
+

@@ -1,0 +1,42 @@
+.page-section__title {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+
+.page-section__body {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.page-section__body_tr {
+    background-color: transparent
+}
+
+.page-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #222;
+}
+
+.page-section__subtitle {
+    font-family: Gotham Pro;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.page-section__descr {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
